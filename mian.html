@@ -3,131 +3,79 @@
 
 <head>
   <meta charset="UTF - 8">
-  <meta name="viewport" content="width=device - width, initial - scale = 1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>甘肃战狼旅教育信息咨询有限公司</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font - awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-<!-- 头部导航 -->
+<!-- 导航栏 -->
 <header>
-  <nav class="navbar">
-    <div class="logo">
-      < img src="images/logo.png" alt="甘肃战狼旅教育">
-    </div>
-    <ul class="nav - links">
+  <nav>
+    <ul>
       <li><a href=" ">首页</a ></li>
-      <li><a href="#about">关于我们</a ></li>
-      <li><a href="#programs">特色项目</a ></li>
-      <li><a href="#news">新闻动态</a ></li>
-      <li><a href="#contact">联系我们</a ></li>
+      <li><a href="about.html">公司简介</a ></li>
+      <li><a href="courses.html">课程体系</a ></li>
+      <li><a href="teachers.html">师资力量</a ></li>
+      <li><a href="students.html">学员风采</a ></li>
+      <li><a href="contact.html">联系我们</a ></li>
     </ul>
-    <div class="menu - toggle">
-      <i class="fas fa - bars"></i>
-    </div>
   </nav>
 </header>
 
-<!-- 首页英雄区域 -->
-<section id="home" class="hero">
+<!-- 首页内容 -->
+<section class="hero">
   <div class="hero - content">
-    <h1>甘肃战狼旅教育，塑造未来之星</h1>
-    <p>专业的军事教育咨询，为孩子成长助力</p >
+    <h1>甘肃战狼旅教育信息咨询有限公司</h1>
+    <p>专业军事教育咨询，塑造卓越未来</p >
   </div>
 </section>
 
-<!-- 关于我们 -->
-<section id="about" class="about - section">
-  <div class="container">
-    <h2>关于我们</h2>
-    <p>甘肃战狼旅教育信息咨询有限公司致力于为青少年提供全方位、高品质的教育咨询服务。我们以军事教育为特色，融合专业的教育理念和方法，培养学员的自律性、团队协作能力、领导力以及坚韧不拔的意志。公司拥有一支经验丰富、专业素质高的师资队伍，他们以高度的责任心和爱心，为每一位学员的成长保驾护航。</p >
-    <div class="about - image">
-      < img src="images/about.jpg" alt="关于我们">
-    </div>
+<section class="slider">
+  <div class="slide active">
+    < img src="slide1.jpg" alt="公司活动场景1">
+  </div>
+  <div class="slide">
+    < img src="slide2.jpg" alt="公司活动场景2">
+  </div>
+  <div class="slide">
+    < img src="slide3.jpg" alt="公司活动场景3">
+  </div>
+  <div class="slider - controls">
+    <span class="control - dot active" data - slide - index="0"></span>
+    <span class="control - dot" data - slide - index="1"></span>
+    <span class="control - dot" data - slide - index="2"></span>
   </div>
 </section>
 
-<!-- 特色项目 -->
-<section id="programs" class="programs - section">
-  <div class="container">
-    <h2>特色项目</h2>
-    <div class="program - cards">
-      <div class="program - card">
-        < img src="images/program1.jpg" alt="军事夏令营">
-        <h3>军事夏令营</h3>
-        <p>通过严格的军事训练，培养学员的纪律意识和身体素质，让他们在团队生活中学会沟通与协作。</p >
-      </div>
-      <div class="program - card">
-        < img src="images/program2.jpg" alt="户外拓展">
-        <h3>户外拓展</h3>
-        <p>在自然环境中开展各类拓展活动，挑战自我，激发潜能，提升学员的适应能力和解决问题的能力。</p >
-      </div>
-      <div class="program - card">
-        < img src="images/program3.jpg" alt="领导力培训">
-        <h3>领导力培训</h3>
-        <p>专业的领导力课程，帮助学员掌握领导技巧，培养决策能力和团队管理能力，为未来的发展奠定基础。</p >
-      </div>
-    </div>
+<section class="features">
+  <div class="feature">
+    < img src="icon1.png" alt="专业课程">
+    <h3>专业课程</h3>
+    <p>丰富多样的军事教育咨询课程</p >
+  </div>
+  <div class="feature">
+    < img src="icon2.png" alt="优秀师资">
+    <h3>优秀师资</h3>
+    <p>经验丰富的专业教师团队</p >
+  </div>
+  <div class="feature">
+    < img src="icon3.png" alt="卓越成果">
+    <h3>卓越成果</h3>
+    <p>众多学员取得显著进步和成绩</p >
   </div>
 </section>
 
-<!-- 新闻动态 -->
-<section id="news" class="news - section">
-  <div class="container">
-    <h2>新闻动态</h2>
-    <div class="news - items">
-      <!-- 这里可以通过JavaScript或后端渲染动态添加新闻内容 -->
-      <div class="news - item">
-        < img src="images/news1.jpg" alt="新闻图片">
-        <h3>战狼旅军事夏令营开营仪式圆满成功</h3>
-        <p>近日，甘肃战狼旅教育信息咨询有限公司举办的军事夏令营开营仪式在... </p >
-        <a href="#" class="read - more">阅读更多</a >
-      </div>
-      <div class="news - item">
-        < img src="images/news2.jpg" alt="新闻图片">
-        <h3>户外拓展活动精彩纷呈，学员收获满满</h3>
-        <p>上周，我公司组织的户外拓展活动顺利进行，学员们在活动中... </p >
-        <a href="#" class="read - more">阅读更多</a >
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 联系我们 -->
-<section id="contact" class="contact - section">
-  <div class="container">
-    <h2>联系我们</h2>
-    <div class="contact - info">
-      <p><i class="fas fa - map - marker - alt"></i> 地址：甘肃省XX市XX区XX路XX号</p >
-      <p><i class="fas fa - phone"></i> 电话：123 - 4567 - 8901</p >
-      <p><i class="fas fa - envelope"></i> 邮箱：info@zhanlanglv.com</p >
-    </div>
-    <form id="contactForm">
-      <div class="form - group">
-        <label for="contactName">姓名：</label>
-        <input type="text" id="contactName" placeholder="请输入姓名" required>
-      </div>
-      <div class="form - group">
-        <label for="contactEmail">邮箱：</label>
-        <input type="email" id="contactEmail" placeholder="请输入邮箱" required>
-      </div>
-      <div class="form - group">
-        <label for="contactMessage">留言：</label>
-        <textarea id="contactMessage" placeholder="请输入留言内容" required></textarea>
-      </div>
-      <button type="submit" class="btn - submit">发送留言</button>
-    </form>
-  </div>
-</section>
-
-<!-- 底部版权 -->
+<!-- 页脚 -->
 <footer>
-  <p>&copy; 2024 甘肃战狼旅教育信息咨询有限公司 版权所有</p >
+  <p>&copy; 2024 甘肃战狼旅教育信息咨询有限公司版权所有</p >
+  <div class="social - links">
+    <a href="#">< img src="facebook.png" alt="Facebook"></a >
+    <a href="#">< img src="twitter.png" alt="Twitter"></a >
+    <a href="#">< img src="wechat.png" alt="微信"></a >
+  </div>
 </footer>
-
 <script src="script.js"></script>
 </body>
 
 </html>
-
